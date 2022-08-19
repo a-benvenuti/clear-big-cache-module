@@ -1,0 +1,7 @@
+module_clear_big_cache.welcome:
+  path: '/clear-big-cache-eM8bWtNS04hpRNlM'
+  defaults:
+    _controller: '\Drupal\module_clear_big_cache\Controller\ClearBigCacheController::clearBigCache'
+    _title: 'Clear big cache'
+  requirements: 
+    _access: 'TRUE'
